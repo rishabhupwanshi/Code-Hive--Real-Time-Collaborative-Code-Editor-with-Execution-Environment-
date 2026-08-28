@@ -1,0 +1,28 @@
+# Version-control and editor metadata
+.git
+.github
+.agents
+.idea
+.vscode
+*.iml
+
+# Build outputs and local dependency caches
+**/target/
+**/node_modules/
+**/dist/
+.mvn/
+
+# Nested archives and local project copies
+*.zip
+
+# Environment files may contain credentials. Pass required values as Docker
+# build arguments or runtime environment variables instead.
+**/.env
+**/.env.*
+!**/.env.example
+
+# Logs, tests, and temporary files are not needed to create the production image
+**/*.log
+**/coverage/
+**/.cache/
+**/*.bak
