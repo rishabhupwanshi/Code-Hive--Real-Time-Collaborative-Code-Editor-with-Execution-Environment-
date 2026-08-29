@@ -4,13 +4,15 @@ public class AdminLiveSessionResponse {
 
     private String sessionToken;
     private String sessionName;
-    private String language;
+    private String language; //language
     private String hostName;
     private int participantCount;
     private java.util.List<String> participants;
 
     public AdminLiveSessionResponse() {
     }
+
+    
 
     public AdminLiveSessionResponse(String sessionToken, String sessionName, String language, String hostName,
             int participantCount, java.util.List<String> participants) {
