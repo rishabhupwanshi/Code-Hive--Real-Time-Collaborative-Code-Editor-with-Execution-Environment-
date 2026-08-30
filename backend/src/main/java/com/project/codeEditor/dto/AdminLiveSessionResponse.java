@@ -6,7 +6,7 @@ public class AdminLiveSessionResponse {
     private String sessionName;
     private String language; 
     private String hostName;
-    private int participantCount;
+    private int participantCount;    
     private java.util.List<String> participants;
 
     public AdminLiveSessionResponse() {
