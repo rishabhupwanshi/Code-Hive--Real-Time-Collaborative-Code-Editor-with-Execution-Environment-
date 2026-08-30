@@ -4,7 +4,7 @@ public class AdminLiveSessionResponse {
 
     private String sessionToken;
     private String sessionName;
-    private String language; //language
+    private String language; 
     private String hostName;
     private int participantCount;
     private java.util.List<String> participants;
@@ -37,3 +37,4 @@ public class AdminLiveSessionResponse {
     public java.util.List<String> getParticipants() { return participants; }
     public void setParticipants(java.util.List<String> participants) { this.participants = participants; }
 }
+//this is admin live session response
